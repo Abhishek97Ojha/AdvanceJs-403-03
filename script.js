@@ -18,7 +18,7 @@ var bill = document.getElementById("bill");
                         if (bill.value != "" && select.value != "" && people.value != "") {
                             let tip = (bill.value * select.value) / people.value;
                             result.innerHTML = `<p><strong>Tip Amount</strong></p>
-                                 <h1>$&nbsp;${tip}</h1>
+                                 <h1>₹&nbsp;${tip}</h1>
                                  <p><strong>each</p></strong>`;
                             bill.value = "";
                             select.value = "";
